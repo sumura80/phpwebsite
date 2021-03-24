@@ -1,0 +1,321 @@
+/* 変数 */
+:root {
+  --colorCompany: #FF6D6D;
+  
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.error_msg{
+  color:red;
+}
+
+.postedTime{
+  color: #A4A4A4;
+  font-size: 12px;
+}
+
+.requiredColor{
+  color:red;
+}
+
+.inputForm{
+  background-color: rgb(240, 240, 240);
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 40px;
+  box-shadow: 1px 3px 3px rgba(95, 95, 95, 0.4);
+}
+
+/* 掲示板wrap */
+.post-board-wrap{
+  margin-top: 50px;
+  background-color: azure;
+  box-shadow: 1px 3px 3px rgba(95, 95, 95, 0.4);
+  padding: 40px;
+}
+
+/* index page */
+.topImage{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.trialBtnWrap{
+  margin-top: 80px;
+  text-align: center;
+}
+.trialBtn{
+  background-color: #FD9B9B;
+  padding: 20px;
+  border-radius: 35px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #868686;
+}
+
+dt{
+  float: left;
+}
+
+dt::after{
+  content: "：";
+  padding-right:15px; 
+}
+
+/* Contactセクション */
+.contact{
+  background: #f8f8f8;
+  padding: 30px;
+}
+
+
+/* Confirm.php */
+.contactConfirmWrap{
+  margin-top: 30px;
+}
+
+/* Contact.php */
+.contactWrap{
+  margin-top:30px;
+}
+
+/* Thanks.php */
+.thanksWrap{
+  margin-top: 30px;
+}
+
+
+.articleWrap{
+  margin-top: 30px;
+}
+
+/* 画面上部にmargin */
+ .bodyWrap{
+  margin-top: 30px;
+}
+
+
+.colorCompanyPink{
+  color: var(--colorCompany);
+}
+
+.schoolFeature{
+  font-size: 1.8em;
+  text-align: center;
+  margin: 60px 0;
+}
+.featureTitleSize{
+  font-size: 22px;
+}
+
+.featureTextSize{
+  font-size: 16px;
+}
+
+.studentsFeedback{
+  margin: 60px 0;
+  padding: 40px 0 60px 0;
+  background-color: #f1f1f1;
+}
+.feedbackTitleHead{
+  text-align: center;
+  margin-bottom: 5px;
+  color: var(--colorCompany);
+  font-weight: bold;
+}
+.feedbackTitle{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.quoteColor{
+  color:#d3d3d3
+}
+
+.smallSan{
+  font-size: 18px;
+}
+
+.studentsDetail{
+  font-size:13px;
+  float: right;
+  color: var(--colorCompany);
+}
+
+.studentsCard{
+color:#292929
+}
+
+.studentsCard:hover{
+  text-decoration: none;
+  color: var(--colorCompany);
+}
+.studentsListBtn{
+  background-color: #ffffff;
+  padding: 10px 0;
+  font-size: 14px;
+  width:250px;
+  text-align: center;
+  margin:0 auto;
+  margin-top: 45px;
+  display: block;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgb(173, 173, 173);
+  border-radius: 5px;
+}
+.studentsListBtn:hover{
+  background-color: rgb(248, 248, 248);
+}
+.trialBigBtnSection{
+  margin: 80px 0;
+
+}
+.trialBigBtnSection{
+  text-align: center;
+}
+
+.trialReserve{
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+.trialBigBtn{
+  background-color: #FE6790;
+  font-size: 2em;
+  padding: 30px 60px;
+  display: inline-block;
+  border-radius: 50px;
+  color:#FFF;
+  box-shadow: 1px 3px 2px #d46182;
+}
+
+.trialBigBtn:hover{
+  background-color: #FF8AAA;
+}
+
+.fa-chevron-right{
+ color: #3D3D3D;
+}
+
+.dottLine{
+  border-bottom: 12px dotted #16aabf;
+  opacity: 0.4;
+}
+
+.lessonStyleTitle{
+  margin-bottom: 30px;
+  font-size: 2.4em;
+  color: #9D9D9D;
+  font-family: 'Comic Sans MS';
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+.lessonStyle{
+  margin: 80px 0;
+}
+
+.lessonMember{
+  margin-top: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.groupLesson{
+  font-size: 2.4em;
+  text-align: center;
+  color: #f07b32;
+}
+
+.lessonIntro{
+  margin: 30px 0 60px 0;
+}
+.introGap{
+  margin-top: 100px;
+}
+.introBold{
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.youTubeBanner{
+  margin-top: 70px;
+}
+.youTubeBanner:hover{
+  opacity: 0.8;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.youTubeIntro{
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+
+/* Footerのデザイン */
+footer.footer{
+  padding: 30px;
+  margin-top: 120px;
+  background-color:#3b3b3b;
+  color:#fff;
+}
+.companyInfo{
+  list-style-type: none;
+}
+
+.companyInfo li {
+  margin-bottom: 15px;
+}
+.companyInfo li a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.companyInfo li a:hover{
+  color: var(--colorCompany);
+}
+
+.socialIcons{
+  margin-top: 30px;
+}
+
+.socialIcon{
+  color: #FFF;
+}
+
+.socialIcon:hover{
+  color: var(--colorCompany);
+}
+
+.footerCompanyInfo{
+  float:left;
+  padding-right: 30px;
+  list-style-type: none;
+  margin-top: 60px;
+}
+
+.footerCompanyInfoList li a{
+  color: #FFF;
+}
+
+.footerCompanyInfoList li a:hover{
+  color: var(--colorCompany);
+}
+
+/* register_check_Wrap */
+.register_check_Wrap{
+  margin-top: 60px;
+}
+
+.postBoardFeature{
+ font-size: 1.6em;
+  
+ padding-top: 30px;
+ margin-bottom: -40px;
+}
